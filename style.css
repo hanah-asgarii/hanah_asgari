@@ -104,6 +104,13 @@ main {
   text-align: center;
 }
 
+.image-grid img {
+  width: 100%;
+  aspect-ratio: 4 / 5;
+  object-fit: contain;
+  display: block;
+}
+
 .smaller-grid {
   grid-template-columns: repeat(3, 1fr);
 }
