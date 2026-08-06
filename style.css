@@ -87,6 +87,17 @@ main {
   font-size: 1.1rem;
 }
 
+.video-item video {
+  width: 100%;
+  display: block;
+  background: #000;
+}
+
+.video-item p {
+  text-align: center;
+  margin: 12px 0 0;
+}
+
 .image-grid {
   margin-top: 55px;
   display: grid;
