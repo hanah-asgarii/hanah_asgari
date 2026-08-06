@@ -87,10 +87,23 @@ main {
   font-size: 1.1rem;
 }
 
+.video-item {
+  width: 100%;
+  max-width: 600px;
+  margin: 55px auto 0;
+}
+
 .video-item video {
   width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: contain;
   display: block;
   background: #000;
+}
+
+.video-item p {
+  text-align: center;
+  margin: 12px 0 0;
 }
 
 .video-item p {
