@@ -166,6 +166,12 @@ main {
   color: var(--cream);
 }
 
+.cv-links {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+}
+
 .contact-section {
   padding-bottom: 80px;
 }
